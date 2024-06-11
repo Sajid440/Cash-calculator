@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: auto;
+}
+
+.sec {
+    display: flex;
+    height: 60px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sec img {
+    height: 60px;
+    width: 200px;
+}
+
+input {
+    border: 2px solid red;
+    width: 200px;
+}
+button{
+    height: 0px;
+    width: 0px;
+    border: none;
+}
+
+
+
+.output{
+    color: darkblue;
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media screen and (max-width : 767px) {
+    .main {
+        margin: 0px;
+        width: 100%;
+        height: auto;
+        justify-items: center;
+        align-items: center;
+    }
+}
